@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="img/logo.png" class="center">
+    <p class="center">EasyJava</p>
+    <ul id="menu">
+        <li><a href="index.html">HOME</a>
+            <ul>
+                <li><a>Basic Java</a>
+                    <ul>
+                        <li><a href="intro.html">Intro</a></li>
+                        <li><a href="variables.html">Variables</a></li>
+                        <li><a href="data_type.html">Data Types</a></li>
+                    </ul>
+                </li>
+                <li><a>Java OOP</a>
+                    <ul>
+                        <li><a href="intro_oop.html">Intro OOP</a></li>
+                    </ul>
+        
+                </li>
+              </ul>
+        </li>
+        <li><a href="about.html">ABOUT</a></li>
+    </ul>
+    <div> <hr> </div>
+    <article class="content">
+        <h1>Java variables</h1>
+        <h2 class="subtitle">February 28, 2022</h2>
+        <p> In this section, we will learn about variable types in Java. Variable is the name of a memory location. 
+        There are three types of variables: local variables (also known as local variables), instance variables and static variables.
+        </p>
+        <p> All variables must be declared before they can be used. The basic form of a variable declaration is as follows: </p>
+        <span class = "codeimg"><img src="img/variable_defined1.png"></span>
+        <p> In explanation, <i>data_type</i> is a data type of Java, <i>variable_name</i> is the name of the variable and <i>value</i> is the value assigned to the variable. 
+        To declare more than one variable with a specific type, you can use a comma-separated variable list. 
+        Here is an example of valid Java variable declaration and initialization:
+        </p>
+        <span class = "codeimg"><img src="img/variable_defined2.png"></span>
+        <h3>Local Variable</h3>
+        <ul>
+            <li>Variables are declared in methods, constructors, or blocks.</li>
+            <li>Variables are created when the method, constructor, or block is entered, and the variable is destroyed when the method, constructor, or block terminates.</li>
+            <li>The access modifier may not be used for local variables.</li>
+            <li>Local variables are only visible in the declared method, constructor, or block.</li>
+            <li>Local variables are implemented internally.</li>
+            <li>There is no default value for local variables, so local variables should be declared and an initial value assigned before use.</li>
+        </ul>
+        <h3>Instance Variable</h3>
+        <ul>
+            <li>Instance variables are declared within a class, but outside a method, constructor or any block.</li>
+            <li>Instance variables hold values ​​that must be referenced by more than one method, constructor, or block.</li>
+            <li>Access modifiers can be provided for properties.</li>
+            <li>Instance variables are visible to all methods, constructors, and blocks in the class. However, visibility for subclasses can be provided to these variables with the use of an access specifier.</li>
+        </ul>
+        <h3>Static Variable</h3>
+        <p>A static variable is common to all the instances (or objects) of the class because it is a class level variable. 
+        In other words you can say that only a single copy of static variable is created and shared among all the instances of the class. Memory allocation for such variables only happens once when the class is loaded in the memory.
+        </p>
+        <h3>Example: </h3>
+        <span class = "codeimg"><img src="img/variable_defined3.png"></span>
+    </article>
+    <footer>
+        <div> <hr> </div>
+        &copy; <script src="script.js"></script>, Nguyen Anh Khoa, All Rights Reserved.
+    </footer>
+</body>
+</html>
