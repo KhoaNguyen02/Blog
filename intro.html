@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="img/logo.png" class="center">
+    <p class="center">EasyJava</p>
+    <ul id="menu">
+        <li><a href="index.html">HOME</a>
+            <ul>
+                <li><a>Basic Java</a>
+                    <ul>
+                        <li><a href="intro.html">Intro</a></li>
+                        <li><a href="variables.html">Variables</a></li>
+                        <li><a href="data_type.html">Data Types</a></li>
+                    </ul>
+                </li>
+                <li><a>Java OOP</a>
+                    <ul>
+                        <li><a href="intro_oop.html">Intro OOP</a></li>
+                    </ul>
+        
+                </li>
+              </ul>
+        </li>
+        <li><a href="about.html">ABOUT</a></li>
+    </ul>
+    <div> <hr> </div>
+    <article class="content">
+        <h1>Introduction to Java</h1>
+        <h2 class="subtitle">February 27, 2022</h2>
+        <h3> What is Java ?</h3>
+        <p> Java is an object-oriented, class-based computer programming language commonly used for highly independent systems. It is used to target programmers who "write one, run everywhere". This means that the compiled Java code can be run on all platforms
+            supporting Java without needing to be recompiled. Java applications that have been compiled into bytecode can run on any Java virtual machine. Java is first released by Sun Microsystems in 1995. 
+            It has evolved from humble beginnings to power a large share of today digital world, by providing the reliable platform upon which many services and applications are built.
+        </p>
+        <h3>Java example</h2>
+        <span class = "codeimg"><img src="img/helloworld.png"></span>
+        <h3>Why use Java ?</h3>
+        <ul>
+            <li>Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)</li>
+            <li>It is one of the most popular programming language in the world.</li>
+            <li>It is easy to learn and simple to use.</li>
+            <li>It is open-source and free.</li>
+            <li>It is secure, fast and powerful.</li>
+            <li>It has a huge community support (tens of millions of developers)</li>
+            <li>Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs.</li>
+            <li>As Java is close to <a href="/cpp/default.asp">C++</a> and <a href="/cs/default.asp">C#</a>, it makes it easy for programmers to switch to Java or vice versa.</li>
+        </ul>
+        <h3>Java characteristics</h3>
+        <div class="align">
+        <h4>1. Object Oriented</h4>
+        <p>Object-oriented means that we organize software as a combination of many different types of objects that closely incorporate both their data and their behaviour.
+        Some basic concepts of object-oriented are: Object, Class, Inheritance, Polymorphism, Abstraction, Encapsulation, etc.
+        </p>
+        <h4>2. Platform Independence</h4>
+        <p>A platform is the hardware or software environment in which a program runs. There are two types of platform: a software-based and a hardware-based. Java provides a software-based platform. 
+        The Java platform differs from many other platforms in that it runs on top of other hardware-based platforms. It has two components: Runtime environment and API (Application Programming Interface)</p>
+        <p>Java code can run on many platforms such as Windows, Linux, Sun Solaris, Mac/OS, … Java code is compiled by Compiler and converted into Bytecode. This bytecode is a platform independent code because it can run on many different platforms.
+        </p>
+        <h4>3. Security</h4>
+        <p> Java is considered to be secured because: </p>
+        <ul>
+            <li><p>There are no explicit pointers.</p></li>
+            <li><p>The program runs inside virtual device boxes.</p></li>
+            <li><p>Classloader:Adds protection by separately distinguishing packages for classes of the local file system from which they are imported from files from network sources.</p></li>
+            <li><p>Bytecode Vertifier:Checks the code for invalid pieces of code that can gain unauthorized access to objects.</p></li>
+            <li><p>Security Manager:Decides which resources a class can access, such as reading and writing to the local disk.</p></li>
+        </ul>
+        <h4>4. Distributed</h4>
+        <p>We can create distributed applications in Java. RMI and EJB are used to create these applications. We can access files by calling methods from any device on the internet.
+        </p>
+        <h4>5. Multi-thread</h4>
+        <p>A thread is like a separate program, executing concurrently. We can write Java programs that handle multiple tasks at the same time by defining multiple threads. The main advantage of multi-threading is that it shares the same memory. 
+        Threads are important for multi-media, web apps, etc.
+        </p>
+        </div>
+    </article>
+    <footer>
+        <div> <hr> </div>
+        &copy; <script src="script.js"></script>, Nguyen Anh Khoa, All Rights Reserved.
+    </footer>
+</body>
+</html>
